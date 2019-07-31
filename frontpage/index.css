@@ -1,0 +1,51 @@
+.owl-carousel .owl-item .d-img img {
+  max-height: 450px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* 大螢幕 */
+@media (min-width: 1200px) {}
+
+/* 非手機 - 新聞圖片跑馬燈 */
+@media (min-width: 480px) {
+  .owl-carousel .owl-nav .owl-prev {
+    left: 4px !important;
+  }
+
+  .owl-carousel .owl-nav .owl-next {
+    right: 4px !important;
+  }
+
+  .owl-carousel .owl-nav .owl-prev,
+  .owl-carousel .owl-nav .owl-next {
+    background-color: #484848 !important;
+    box-shadow: 0 0 2px black !important;
+  }
+
+  .owl-carousel .owl-nav .owl-next:after,
+  .owl-carousel .owl-nav .owl-prev:after {
+    border-color: #fff;
+  }
+
+  .owl-carousel .owl-nav {
+    opacity: 0;
+  }
+
+  .owl-carousel:hover .owl-nav {
+    opacity: 0.8;
+  }
+
+  .owl-carousel:hover .owl-nav:hover {
+    opacity: 1;
+  }
+}
+
+/* 手機 */
+@media (max-width: 480px) {
+  .owl-carousel .owl-item .d-img img {
+    max-height: 270px;
+    max-width: 100%;
+    object-fit: cover;
+  }
+}

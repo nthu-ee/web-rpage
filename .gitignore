@@ -1,0 +1,20 @@
+*.log
+*.swp
+*.tmp
+._*
+.AppleDouble
+.DS_Store
+.idea/
+.LSOverride
+.tags*
+.yarn-integrity
+Thumbs.db
+
+/vender/
+/node_modules/
+
+building.lock
+
+# git worktree
+/br-*/
+/branch-*/
