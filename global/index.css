@@ -17,6 +17,15 @@ button:focus {
   color: #3399ff !important;
 }
 
+/* 主題列表中的日期加上[] */
+i.mdate:before {
+  content: "[";
+}
+
+i.mdate:after {
+  content: "]";
+}
+
 body {
   background: url(images/background.png) repeat !important;
 }
