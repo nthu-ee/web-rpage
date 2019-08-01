@@ -8,6 +8,15 @@ button:focus {
   box-shadow: none !important;
 }
 
+/* 主題列表超連結的顏色 */
+.d-item .d-txt > * a {
+  color: #44a5c7 !important;
+}
+
+.d-item .d-txt > * a:hover {
+  color: #3399ff !important;
+}
+
 body {
   background: url(images/background.png) repeat !important;
 }
