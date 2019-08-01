@@ -1,7 +1,12 @@
-.full-width {
-  width: 100%;
+.half-width {
+  width: 50% !important;
 }
 
+.full-width {
+  width: 100% !important;
+}
+
+/* 移除超連結取得焦點時的藍色外框 */
 a:focus,
 button:focus {
   border: none !important;
