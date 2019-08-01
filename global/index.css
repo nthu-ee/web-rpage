@@ -52,6 +52,20 @@ body {
   border-color: #ebd4e5 !important;
 }
 
+/* 手機 */
+@media (max-width: 480px) {
+
+  /* 修正手機下 多個選單模組之間不應該有間距 */
+  .cgmenu-toggle + .module-cgmenu {
+    display: none;
+  }
+
+  .cgmenu-toggle + .module-cgmenu.in,
+  .cgmenu-toggle + .module-cgmenu.collapsing {
+    display: block;
+  }
+}
+
 /* 中螢幕 */
 @media (min-width: 768px) {
 
