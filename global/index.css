@@ -46,6 +46,13 @@ body {
 .mrow.container {
   background-color: #fff;
   box-shadow: 0 0 25px 4px rgba(0, 0, 0, 0.2);
+  /**
+   * 修正 block 中最後一個元素依然是 block, 而造成 Collapsing margins
+   * 例如首頁手機版 最新消息頁籤 裡的 "更多..." p標籤
+   *
+   * @see https://wcc723.github.io/css/2016/06/08/css-margin-collapsing
+   */
+  padding-bottom: 1px;
 }
 
 .footer {
