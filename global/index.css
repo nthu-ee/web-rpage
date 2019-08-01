@@ -55,6 +55,11 @@ body {
 /* 手機 */
 @media (max-width: 480px) {
 
+  /* 每個 col 中的最後一個模組不需要有 margin-bottom */
+  .mcol > div[id^=Dyn_]:last-child .module {
+    margin-bottom: 0 !important;
+  }
+
   /* 修正手機下 多個選單模組之間不應該有間距 */
   .cgmenu-toggle + .module-cgmenu {
     display: none;
