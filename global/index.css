@@ -6,11 +6,20 @@
   width: 100% !important;
 }
 
-/* 移除超連結取得焦點時的藍色外框 */
+/* 移除超連結按下時的藍色外框 */
+a:active,
+button:active,
 a:focus,
 button:focus {
   border: none !important;
   box-shadow: none !important;
+  outline: none !important;
+}
+
+/* 頁籤模組 的標籤按下時保持外框 */
+.module.module-complex .nav.nav-tabs a:active,
+.module.module-complex .nav.nav-tabs a:focus {
+  border: 1px solid #6F1B6C !important;
 }
 
 /* 主題列表超連結的顏色 */
@@ -81,10 +90,14 @@ body {
 /* 中螢幕 */
 @media (min-width: 768px) {
 
+  /* 移除超連結按下時的藍色外框 */
+  a:active,
+  button:active,
   a:focus,
   button:focus {
     border: none !important;
     box-shadow: none !important;
+    outline: none !important;
   }
 
   .logo1,
