@@ -31,6 +31,12 @@ button:focus {
   color: #6f1b6c !important;
 }
 
+/* 修正模組使用 "列表" 陳列樣式時 hover 顏色與背景顏色（紫色）相同 */
+.module-rcglist .d-title .d-txt > *:hover a,
+.module-rcglist .d-title .d-txt > *:hover a:hover {
+  color: #fff !important;
+}
+
 /* 主題列表中的日期加上[] */
 i.mdate:before {
   content: "[";
