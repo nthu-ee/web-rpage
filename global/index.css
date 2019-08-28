@@ -129,6 +129,13 @@ body {
 }
 
 /* 大螢幕 */
+@media (min-width: 1024px) {
+  .dropdown-menu {
+    width: max-content;
+    max-width: 300px !important;
+  }
+}
+
 @media (min-width: 1200px) {
 
   .logo1 img,
