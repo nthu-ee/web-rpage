@@ -2,9 +2,10 @@
 /* 首頁 CSS */
 
 .owl-carousel .owl-item .d-img img {
-  max-height: 500px;
+  max-height: 550px;
   max-width: 100%;
   object-fit: cover;
+  object-position: center 12%;
 }
 
 /* 大螢幕 */
