@@ -54,7 +54,11 @@ i.mdate:after {
 }
 
 body {
-  background: url(images/background.png) repeat !important;
+  background: #6F1B6C !important;
+}
+
+body > .wrap {
+  background: #fff url(images/background.png) repeat !important;
 }
 
 .desktop-logo {
