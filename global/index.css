@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* 所有頁面 CSS */
 
+:root {
+  --nthu-color: #6f1b6c;
+}
+
 .half-width {
   width: 50% !important;
 }
