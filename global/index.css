@@ -38,6 +38,11 @@ button:focus {
   color: #6f1b6c !important;
 }
 
+/* 內文的 ol, ul, dl 縮排 */
+.mpgdetail ol, .mpgdetail ul, .mpgdetail dl {
+  padding-left: 4em;
+}
+
 /* 修正模組使用 "列表" 陳列樣式時 hover 顏色與背景顏色（紫色）相同 */
 .module-rcglist .d-title .d-txt > *:hover a,
 .module-rcglist .d-title .d-txt > *:hover a:hover {
@@ -101,6 +106,11 @@ body > .wrap {
   .cgmenu-toggle + .module-cgmenu.in,
   .cgmenu-toggle + .module-cgmenu.collapsing {
     display: block;
+  }
+
+  /* 內文的 ol, ul, dl 縮排 */
+  .mpgdetail ol, .mpgdetail ul, .mpgdetail dl {
+    padding-left: 3em;
   }
 }
 
