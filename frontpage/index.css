@@ -2,10 +2,35 @@
 /* 首頁 CSS */
 
 .owl-carousel .owl-item .d-img img {
-  max-height: 550px;
+  max-height: 460px;
   max-width: 100%;
   object-fit: cover;
   object-position: center 12%;
+}
+
+.owl-carousel .owl-item .d-img {
+  padding: 0px;
+  margin: 1em auto;
+  width: 100%;
+  max-width: 88%;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 0;
+  box-shadow: 0 0px 14px -6px #333;
+}
+
+.owl-carousel .owl-item .d-txt {
+  margin-top: 1em;
+  font-size: 1em;
+  text-align: center;
+}
+
+.owl-carousel .owl-item .d-txt a {
+  color: #565656 !important;
+}
+
+.owl-carousel .owl-item .d-txt a:hover {
+  color: #6f1b6c !important;
 }
 
 /* 大螢幕 */
@@ -24,7 +49,7 @@
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next {
     background-color: #484848 !important;
-    box-shadow: 0 0 2px black !important;
+    box-shadow: 0 0 2px #000 !important;
   }
 
   .owl-carousel .owl-nav .owl-next:after,
@@ -51,5 +76,9 @@
     max-height: 270px;
     max-width: 100%;
     object-fit: cover;
+  }
+
+  .owl-carousel .owl-item .d-img {
+    max-width: 95%;
   }
 }
