@@ -23,6 +23,21 @@ button:focus {
   outline: none !important;
 }
 
+/* 頂部導航欄位置中 */
+.topnav2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 頁籤模組 頁籤置中 */
+.module.module-complex .nav.nav-tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 /* 頁籤模組 的標籤按下時保持外框 */
 .module.module-complex .nav.nav-tabs a:active,
 .module.module-complex .nav.nav-tabs a:focus {
@@ -92,6 +107,9 @@ body > .wrap {
 
 /* 手機 */
 @media (max-width: 480px) {
+  .nav-tabs > li {
+    margin-top: 5px;
+  }
 
   /* 每個 col 中的最後一個模組不需要有 margin-bottom */
   .mcol > div[id^=Dyn_]:last-child .module {
