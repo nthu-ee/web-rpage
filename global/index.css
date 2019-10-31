@@ -54,7 +54,9 @@ button:focus {
 }
 
 /* 內文的 ol, ul, dl 縮排 */
-.mpgdetail ol, .mpgdetail ul, .mpgdetail dl {
+.mpgdetail ol,
+.mpgdetail ul,
+.mpgdetail dl {
   padding-left: 4em;
 }
 
@@ -127,7 +129,9 @@ body > .wrap {
   }
 
   /* 內文的 ol, ul, dl 縮排 */
-  .mpgdetail ol, .mpgdetail ul, .mpgdetail dl {
+  .mpgdetail ol,
+  .mpgdetail ul,
+  .mpgdetail dl {
     padding-left: 3em;
   }
 }
