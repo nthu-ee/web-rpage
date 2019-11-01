@@ -2,10 +2,7 @@
 /* 首頁 CSS */
 
 .owl-carousel .owl-item .d-img img {
-  max-height: 460px;
   max-width: 100%;
-  object-fit: cover;
-  object-position: center 12%;
 }
 
 .owl-carousel .owl-item .d-img {
@@ -13,20 +10,22 @@
   margin: 1em auto;
   width: 100%;
   max-width: 88%;
+  max-height: 480px;
   overflow: hidden;
   border: 5px solid #fff;
   border-radius: 0;
-  box-shadow: 0 0px 14px -6px #333;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
 }
 
 .owl-carousel .owl-item .d-txt {
-  margin-top: 1em;
+  margin-top: 1.5em;
   font-size: 1em;
   text-align: center;
 }
 
 .owl-carousel .owl-item .d-txt a {
   color: #565656 !important;
+  font-weight: bold;
 }
 
 .owl-carousel .owl-item .d-txt a:hover {
@@ -72,13 +71,9 @@
 
 /* 手機 */
 @media (max-width: 480px) {
-  .owl-carousel .owl-item .d-img img {
-    max-height: 270px;
-    max-width: 100%;
-    object-fit: cover;
-  }
-
   .owl-carousel .owl-item .d-img {
     max-width: 95%;
+    max-height: 270px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
   }
 }
