@@ -53,6 +53,15 @@ button:focus {
   color: #6f1b6c !important;
 }
 
+/* 頁籤模組 頁籤內容的框框 */
+.boxSD .d-item > .mbox {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+}
+
+.boxSD .d-item > .mbox:hover {
+  background-color: rgba(255, 235, 50, .08);
+}
+
 /* 內文的 ol, ul, dl 縮排 */
 .mpgdetail ol,
 .mpgdetail ul,
